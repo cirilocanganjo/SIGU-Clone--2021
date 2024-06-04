@@ -1,0 +1,71 @@
+/*ESTILO DE CONFIRMA SENHA*/
+.formActualizar{
+    display: flex;
+    justify-content: center;
+
+}
+.formActualizar form {
+  margin-left: 15rem;
+  margin-top:2rem;
+}
+.formActualizar form input{
+
+    width: 15rem;
+    margin-bottom: .2rem;
+    
+   
+}
+ 
+.formActualizar form #nome,#processo{
+
+    width: 25rem;
+}
+.formActualizar form #pw,#cpw{
+
+    width: 10rem;
+}
+.formActualizar form label{
+    font-size: 10.5px;
+}
+.formActualizar form .lb1{
+  
+    margin-right: 5rem;
+    
+}
+.formActualizar form .lb2{
+
+    margin-right: 3.2rem;
+}
+.formActualizar form .lb3{
+
+    margin-right: 4.9rem;
+}
+.formActualizar form .lb4{
+
+    margin-right: 2rem;
+}
+
+
+/*BOTOES*/
+
+.btn{
+    text-decoration: none;
+    margin-left: .5rem;
+    float: right;
+    background-color: #336699;
+    color:#fff;
+    padding: .4rem;
+    font-size: 12px;
+    font-weight: bold;
+    border:none;
+    width:5rem;
+    height: 1.5rem;
+}
+
+/*Rodape*/
+
+.rodapeSenha{
+
+    margin-top:15 rem;
+}
+ 

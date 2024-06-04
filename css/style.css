@@ -1,0 +1,320 @@
+/*RESETE DO ESTILO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Arial,sans-serif;
+}
+
+.logos{
+    position: absolute;
+    margin-top: 3.5rem;
+    margin-right: 4px;
+}
+.borda__azul img{
+    display: none;
+}
+ .marcaagua{
+     display:flex;
+     justify-content: center;
+ }
+/*CABECALHO*/
+.header{
+    background-image: url(../image/fondo_top.gif); 
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+     
+}
+.header img{
+    margin-left:50px ;
+}
+
+.logotipo{
+    
+    height:80px;
+    width:100px;
+}
+
+
+.header .logotipo__nome{
+    margin-left: 4rem;
+}
+
+.logotipo__nome{
+    width: 400px;
+    
+}
+
+.logotipo__nome img{
+
+
+}
+
+.linha__azul{
+    height:20px;
+    background-color:#336699;
+    margin:1px;
+    
+}
+
+
+.texto__principal  p{
+
+    background-color: #336699 ;
+    color:#fff;    
+    margin-bottom: .5rem;
+    margin-top:1rem;
+    padding:3px;
+    width: 13rem;
+    margin-left: 2.3rem;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.icone__login{   
+    
+    margin-right: .5rem;
+    margin-top: -1rem;
+}
+
+.icone__login img{
+    width: 8rem;
+    border: 1px solid #336699;
+    /* #8f8686; */
+    border-radius: 3.9rem;
+}
+
+/*SEGUNDA PAGINA*/
+.linha_2{
+    height:auto;
+    color:#fff;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+}
+.s1{
+    font-size:12px ;
+}
+.s2{
+    font-size:11px ;
+    margin-top: 5px;
+}
+ 
+.borda__azul img{
+    width: 30px;
+}
+.corpo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15rem;
+}
+ 
+
+.form input{
+
+   height: 2.4rem;
+   margin-top:1rem;
+   outline: none;
+   width: 18rem;
+   border-radius: 5px;
+   padding: 0.5rem;
+   border: 1px solid #ccc;
+}
+
+input:focus{
+
+    border-color: #2471d4;
+    transition: .4s;
+}
+
+
+.botao__entrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao__entrar a{
+    
+    float:right;    
+    margin-top:1.8rem ;
+    background-color: #336699;
+    color:#ffff;
+    padding:.6rem;    
+    width:7rem;
+    border:none;
+    border-radius: 8px;
+
+    /*link*/
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao__entrar a:hover{
+
+    background-color: #080808;
+    transition: .4s;
+}
+
+/*RODAPE DA PAGINA*/
+.rodape__login{
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+}
+.rodape{
+    text-align: center;
+    margin-top:20rem;
+    font-size: 13px;
+}
+ 
+.rodapeHome  {
+    font-size: 12px;
+    margin-left: 45%;
+    margin-bottom: 1rem;
+  
+}
+ 
+
+/*  ´Média Query - Responsividade´ */
+
+@media(max-width: 440px) {
+
+   
+   
+    .corpo{
+
+        margin-top:20rem;
+    }
+
+    header 
+    .logotipo, 
+    .logotipo__nome{
+    display: none;
+    
+    }
+
+    .borda__azul{
+        background-color:#336699;
+        height: 4rem;
+        width: 40rem;
+    }
+
+
+    .borda__azul img{
+    
+    height:60px;
+    width:80px;
+        
+    }
+
+    .linha__azul{
+        
+
+        display: none;
+    }
+
+  
+
+    .texto__principal p{
+        position: absolute;
+        width: 14rem;
+        text-align: center;
+        margin-right: 5rem;
+        margin-top: -2em;
+    }
+
+    .icone__login{
+        position: absolute;
+        margin-top: -25em;
+    }
+
+    .botao__entrar{
+        margin-top: -1rem;
+    }
+    
+    .botao__entrar a{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 376px) {
+
+   
+   
+    .corpo{
+
+        margin-top:20rem;
+    }
+
+    header 
+    .logotipo, 
+    .logotipo__nome{
+    display: none;
+    
+    }
+
+    .borda__azul{
+        background-color:#336699;
+        height: 4rem;
+        width: 40rem;
+    }
+
+
+    .borda__azul img{
+    
+    height:60px;
+    width:80px;
+        
+    }
+
+    .linha__azul{
+        
+
+        display: none;
+    }
+
+  
+
+    .texto__principal p{
+        position: absolute;
+        width: 14rem;
+        text-align: center;
+        margin-right: 5rem;
+        margin-top: -2em;
+    }
+
+    .icone__login{
+        position: absolute;
+        margin-top: -25em;
+    }
+
+    .botao__entrar{
+        margin-top: -1rem;
+    }
+    
+    .botao__entrar a{
+        width: 100%;
+    }
+
+}
+ 

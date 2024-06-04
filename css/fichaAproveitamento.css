@@ -1,0 +1,111 @@
+
+.Direita fieldset {
+    padding:10px;
+    width:16rem;
+    margin-right: 10px;
+    margin-top:21rem;
+    
+
+}
+
+.Direita .primeiroFieldset{
+    height:12rem;
+    margin-bottom: 20rem;
+    
+} 
+
+
+.Direita fieldset ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+#pessoais{
+    font-weight: 600;
+    margin-top:0rem;
+}
+
+#go__out{
+    margin-top:-18.6rem;
+}
+
+#sair{
+    text-transform: capitalize;
+    
+}
+
+
+fieldset ul li{
+    list-style: none;
+}
+
+/*Organizando as labels*/
+.Direita{
+    float: right;
+    margin-top: -41.3rem; 
+}
+
+.Direita img{
+    width:50px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+fieldset ul li a{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/*ESTILO DA TABELA*/
+.table__aproveitamento{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.table__aproveitamento table{
+
+
+    width: 50rem;
+    height: 20rem;
+    margin: 4rem 0 0 14rem;
+    margin-left:24rem;
+    margin-top:.1rem;
+}
+
+.table__aproveitamento table td{
+    font-size:11px;
+    text-transform: uppercase;
+    padding:4px;
+}
+
+
+
+.table__aproveitamento table .fundoVerde{
+
+    background-color: #cccc33;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    height:1.7rem;
+}
+.table__aproveitamento table tbody .tempos{
+
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+.table__aproveitamento table tbody .ultimaCel{
+
+  height:1rem;
+}

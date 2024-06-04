@@ -1,0 +1,347 @@
+
+/*FORMULARIO DE ESTUDANTES*/
+ 
+fieldset legend{
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+
+
+}
+fieldset{
+    width: 50rem;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 15rem;
+    margin-bottom: 2rem;
+    display: flex;
+   
+ 
+}
+fieldset .semFoto img{
+    width:140px;
+    height:115px;
+    margin: 0.5rem 0 0 0.5rem;
+}
+ 
+.campos,.identificacao{
+    margin-left: 7rem;
+    margin-top:.5rem;
+    display:flex;
+    flex-direction: column;
+}
+.campos label{
+    margin-left: -6rem;
+    font-size: 11px;
+    font-weight: bold;
+}
+ 
+ p{
+    margin-top:5px;
+    margin-left:15rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+#borda{
+    border-color:orange;
+    width:80%;
+    margin-left: 15rem;
+      
+
+  }
+
+
+  .campos > div{
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+      
+  }
+
+  .campos select,input,textarea{
+      margin-left: 0.5rem;
+      font-size: 12px;
+  }
+
+  .campos .nome {
+     
+      margin-left:0.8rem ;
+  }
+  .campos .nome input{
+     
+    width:30rem;
+}
+
+  .campos .dataNasc {
+       
+      margin-left:0.5rem ;
+  }
+
+  .campos .dataNasc input{
+    width: 80px;
+   
+}
+
+
+  .campos .sexo {
+      margin-left: 4.5rem;
+      width: 10rem;
+  }
+  .campos .sexo select{
+
+    width:18rem;
+}
+  .campos .telefone {
+    margin-left: 3.4rem;
+    width: 18rem;
+}
+.campos .email {
+    margin-left: 4.4rem;
+    width: 18rem;
+}
+.campos .rc {
+    margin-left: 2.3rem;
+    
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+  
+}
+.campos .rc textarea{
+    width: 29rem;
+}
+.campos .pais {
+    margin-left: 4.8rem;
+ 
+}
+.campos .pais select{
+
+    width:13.5rem;
+}
+.campos .provincia {
+    margin-left: 3.2rem;
+     
+}
+.campos .provincia select{
+
+    width:13.5rem;
+}
+.campos .municipio {
+    margin-left: 3rem;
+    
+}
+.campos .municipio select{
+
+    width:13.5rem;
+}
+.campos .bairro {
+    margin-left: 4.2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.campos .bairro select{
+
+    width:13.5rem;
+}
+
+.campos div label{
+
+   text-align: right;
+}
+/*IDENTIDICAO DOS ESTUDANTES*/
+
+.identificacao > div{
+    margin-top:5px;
+   
+}
+.identificacao  div label{
+    margin-left: 0.5rem;
+    font-size: 11px;
+    font-weight: bold;
+}
+.identificacao input{
+    margin-left: 0.5rem;
+}
+
+.identificacao .bi {
+    margin-left:2.7rem ;
+   
+    
+}
+
+
+.identificacao .outroDoc {
+    margin-left: 3rem;
+}
+
+.identificacao .nBi {
+    margin-left: 6.3rem;
+   
+
+}
+.identificacao .local {
+    margin-left: 7.1rem;
+    
+
+}
+.identificacao .data {
+    margin-left: 2.1rem;
+
+}
+
+.identificacao .nacionalidade {
+    margin-left: 4.2rem;
+    
+
+}
+
+.identificacao .estCivil {
+    margin-left: 5rem;
+ 
+}
+
+.identificacao .pai {
+    margin-left: 5.8rem;
+    
+
+}
+.identificacao .mae {
+    margin-left: 5.5rem;
+    
+
+}
+
+
+
+.identificacao .habilitacoes  {
+    margin-left: 4.9rem;
+   
+
+}
+.identificacao .oHabilitacoes {
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+  
+
+
+}
+
+/* MENU DIREITO*/
+
+.dDireita fieldset {
+    padding:10px;
+    width:16rem;
+    margin-right: 10px;
+    
+
+}
+
+.dDireita .primeiroFieldset{
+    height:12rem;
+    margin-bottom: 1.5rem;
+    
+} 
+
+
+.dDireita fieldset ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#pessoais{
+    font-weight: 600;
+}
+
+#sair{
+    text-transform: capitalize;
+}
+
+fieldset ul li{
+    list-style: none;
+}
+
+/*Organizando as labels*/
+.dDireita{
+    float: right;
+    margin-top: -41.3rem; 
+}
+
+.dDireita img{
+    width:50px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+fieldset ul li a{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.identificacao .bi select{
+     margin-left: 0.1rem;
+     width:14rem;
+}
+.identificacao .outroDoc input{
+    margin-left: 0.1rem;
+    width:20rem;
+}
+.identificacao .nBi input{
+    margin-left: 0.1rem;
+    width:20rem;
+}
+.identificacao .local input{
+    margin-left: 0.1rem;
+    width:20rem;
+}
+
+.identificacao .data input{
+    margin-left: 0.1rem;
+    width:20rem;
+}
+
+.identificacao .nacionalidade select{
+    margin-left: 0.1rem;
+    width:13rem;
+}
+.identificacao .estCivil select{
+    margin-left: 0.1rem;
+    width:13rem;
+}
+
+.identificacao .pai input{
+    margin-left: 0.1rem;
+    width:31rem;
+}
+.identificacao .mae input{
+    margin-left: 0.1rem;
+    width:31rem;
+}
+
+.identificacao .habilitacoes select{
+    margin-left: 0.1rem;
+    width:13rem;
+}
+.identificacao .oHabilitacoes input{
+    margin-left: 0.1rem;
+    width:20rem;
+}
+
+
+
+
+
+
+
+.rodapeForm{
+    text-align: center;
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}

@@ -1,0 +1,36 @@
+/*ESTILO DA TABELA*/
+.table{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table table{
+
+    width: 50rem;
+    height: 20rem;
+    margin: 2rem 0 0 9rem;
+}
+
+.table table .fundoVerde{
+
+    background-color: #cccc33;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    height:1.7rem;
+}
+.table table tbody .tempos{
+
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+.table table tbody .ultimaCel{
+
+  height:1rem;
+}
